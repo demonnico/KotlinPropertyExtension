@@ -1,5 +1,5 @@
 # KotlinPropertyExtension
-It helps you add any property for existed class in Kotlin, just like objc_setAssociateObject in Objective-c at runtime.
+It helps you add any property for existed classes in Kotlin, just like objc_setAssociateObject in Objective-C at runtime.
 ```kotlin
 data class Student(val name: String)
 var Student.email: String by PropertyAttachedDelegation()
